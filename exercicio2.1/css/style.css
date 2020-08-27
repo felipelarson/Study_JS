@@ -1,0 +1,21 @@
+
+	body{
+		background:#F2F2F2;
+		margin:0;
+		text-align: center;
+	}
+
+
+	#container{
+		width:800px;
+		margin:25px auto;
+	}
+
+	.thumbnails{
+		padding:2px 0;
+	}
+
+	.thumb{
+		width:15%;
+		cursor:pointer;
+	}
