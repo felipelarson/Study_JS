@@ -1,4 +1,4 @@
-(function () {
+(() => {
 
   let thumbnails = document.querySelectorAll('.thumb')
 
