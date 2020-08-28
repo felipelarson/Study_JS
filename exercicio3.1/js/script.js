@@ -45,11 +45,10 @@
 
   let pictures = document.querySelectorAll('.imagem')
 
-  pictures.forEach((pic) => {
-    pic.classList.remove('imagem-activa')
-    pic.addEventListener('click', function () {
-      this.classList.add('imagem-activa')
+  for (let i = 0; i < pictures.length; i++) {
+    pictures[i].addEventListener('click', function () {
+      this.classList.toggle("imagem-activa")
     })
-  })
+  }
 
 })()
