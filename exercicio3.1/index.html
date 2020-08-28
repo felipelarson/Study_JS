@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>jQuery to JS Vanilla</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header id="cabecalho">
+            <!-- <img src="img/logo.png" /> -->
+        </header>
+
+        <!-- Exercício 1-->
+        <div class="exercicio">
+            <h2 class="titulo">
+                Exercício 1
+            </h2>
+            <p>
+                Ao clicar em cada um dos botões coloridos o quadrado deverá ficar com a cor de fundo igual à do botão
+                clicado.
+            </p>
+
+            <div id="quadrado"></div>
+
+            <div id="botao-laranja" class="botao-cor">laranja</div>
+            <div id="botao-azul" class="botao-cor">azul</div>
+
+        </div>
+
+        <!-- Exercício 2 -->
+        <div class="exercicio">
+            <h2 class="titulo">
+                Exercício 2
+            </h2>
+            <p>
+                Ao clicar no #botao-ligar deverá ser adicionada/removida alternadamente a class .ligado.
+            </p>
+
+            <div id="botao-ligar" class="desligado">
+
+            </div>
+
+        </div>
+
+        <!-- Exercício 3 -->
+        <div class="exercicio">
+            <h2 class="titulo">
+                Exercício 3
+            </h2>
+            <p>
+                Ao clicar no #botao_avancar a margin-left do elemento #carro deverá ser animada para 300px.<br />
+                Ao clicar no #botao_recuar a margin-left do elemento #carro deverá ser animada para 0px.
+            </p>
+
+            <div>
+                <img src="img/carro.png" id="carro" />
+            </div>
+
+            <div class="botao" id="botao-recuar">
+                Recuar
+            </div>
+
+            <div class="botao" id="botao-avancar">
+                Avançar
+            </div>
+
+        </div>
+
+        <!-- Exercício 4 -->
+        <div class="exercicio">
+            <h2 class="titulo">
+                Exercício 4
+            </h2>
+            <p>
+                Após clicar em qualquer elemento da class .imagem, o elemento clicado deverá ser o único a ter associada
+                a class .imagem_activa.
+            </p>
+
+            <img src="img/imagem1.jpg" class="imagem imagem-activa" />
+            <img src="img/imagem2.jpg" class="imagem" />
+            <img src="img/imagem3.jpg" class="imagem" />
+            <img src="img/imagem4.jpg" class="imagem" />
+
+        </div>
+
+    </div>
+
+
+    <!-- Anexar ficheiros javascript -->
+    <script type="application/javascript" src="js/jquery.js"></script>
+    <script type="application/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

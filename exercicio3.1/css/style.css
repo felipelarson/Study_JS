@@ -1,0 +1,23 @@
+/** RESET **/
+body{margin:0;font-family:Arial;font-size:16px;}
+
+/*** Helper ***/
+.container{width:900px;margin:50px auto;}
+.exercicio{margin-top:2em;border-top:1px solid #999;}
+.botao{display:inline-block;padding:0.5em 1em;margin-top:1em;background:#CCC;cursor: pointer;}
+
+
+/** Exercício 1 ***/
+#quadrado{width:100px;height:100px;background:#F90;}
+.botao-cor{display:inline-block;padding:0.5em 1em;margin:1em 0;cursor: pointer;}
+#botao-laranja{background:#F90;}
+#botao-azul{background:#09F;}
+
+/** Exercício 2 ***/
+#botao-ligar{width:100px;height:150px;margin:20px auto;cursor:pointer;}
+.desligado{background-image:url(../img/botao_desligado.png);}
+.ligado{background-image:url(../img/botao_ligado.png);}
+
+/** Exercício 4 **/
+.imagem{border:5px solid #000;opacity:0.5;cursor: pointer;}
+.imagem-activa{border:5px solid #ff0066;opacity:1;}
