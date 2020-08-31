@@ -41,10 +41,10 @@
 		transition:0.5s 0s;
 	}
 
-	.section1{background:#D50000;top:0;left:0;}
-	.section2{background:#FF1744;top:0;left:50%;}
-	.section3{background:#FF5252;top:50%;left:0;}
-	.section4{background:#B71C1C;top:50%;left:50%;}
+	.section1{background:#cc00ff;top:0;left:0;}
+	.section2{background:#b100dd;top:0;left:50%;}
+	.section3{background:#8c00af;top:50%;left:0;}
+	.section4{background:#65007e;top:50%;left:50%;}
 
 	.big-section{
 		width:100%;

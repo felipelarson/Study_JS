@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="utf-8" />
+    <title>Kaiser</title>
+</head>
+<body>
+
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+
+        <!-- Search Form -->
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search..."/>
+        </form>
+
+        <!-- Header -->
+        <div class="container">
+            <header id="main-header">
+                <div class="row">
+                    <div class="col col2 left">
+                        <!-- Logo -->
+                        <h1>
+                            <img src="img/logo2.png" alt="Kaiser"/>
+                        </h1>
+                    </div>
+                    <div class="col col8 left">
+                        <!-- Main menu -->
+                        <nav class="main-menu text-center">
+                            <a href="#intro">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#portfolio">Portfolio</a>
+                            <a href="#blog">Blog</a>
+                            <a href="#contacts">Contacts</a>
+                        </nav>
+                    </div>
+                    <div class="col col2 left">
+                        <!-- Header icons -->
+                        <div class="header-icons text-right">
+                            <a href="">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <!-- End of top bar -->
+
+    <!-- Intro section -->
+    <section id="intro">
+        <div class="container">
+            <header>
+                <h2>
+                    Plan, Create and Grow
+                </h2>
+                <a href="">
+                    Find out more
+                </a>
+            </header>
+        </div>
+    </section>
+
+    <!-- ABOUT  -->
+    <section class="home-section">
+        <div class="container">
+            <header class="section-header text-center">
+                <h2>
+                    About Us
+                </h2>
+                <p>
+                    We are a team of young, passionate and professional theme developers.
+                    We work with agencies, corporate, and businesses of all sizes and types.
+                </p>
+            </header>
+
+            <div class="about-slider">
+
+                <div class="about-container text-center">
+                    <!-- About slide 1-->
+                    <article class="about-slide">
+                        <h3>
+                            "It works just perfectly. Websites built by Kaiser are highly adaptable on in any kind of screen."
+                        </h3>
+                        <p>
+                            <div class="about-author">
+                                Balter Bather
+                            </div>
+                            <div class="about-tag">
+                                Designer, Ohio
+                            </div>
+                        </p>
+                    </article>
+                    <!-- About slide 2-->
+                    <article class="about-slide">
+                        <h3>
+                            "Five stars! I have been able to do happy blogging anywhere ever since working with Kaiser."
+                        </h3>
+                        <p>
+                            <div class="about-author">
+                                John Walker
+                            </div>
+                            <div class="about-tag">
+                                Developer, London
+                            </div>
+                        </p>
+                    </article>
+                    <!-- About slide 3-->
+                    <article class="about-slide">
+                        <h3>
+                            "Kaiser websites are truly responsive and functional. All process was just as a piece of cake for me."
+                        </h3>
+                        <p>
+                            <div class="about-author">
+                                Jenny Waits
+                            </div>
+                            <div class="about-quote">
+                                Project Manager, Lisbon
+                            </div>
+                        </p>
+                    </article>
+                </div>
+
+                <div class="about-buttons text-center">
+                    <div class="about-button active-button"></div>
+                    <div class="about-button"></div>
+                    <div class="about-button"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio  -->
+    <section class="home-section portfolio">
+        <div class="container">
+            <header class="section-header text-center">
+                <h2>
+                    Our Work
+                </h2>
+                <p>
+                    We are a team of young, passionate and professional theme developers.
+                    We work with agencies, corporate, and businesses of all sizes and types.
+                </p>
+            </header>
+
+            <div class="projects">
+
+                <img src="img/project1.jpg" id="main-project"/>
+
+                <div class="projects-thumbs row">
+                    <img src="img/project1.jpg" class="active-thumb"/>
+                    <img src="img/project2.jpg"/>
+                    <img src="img/project3.jpg"/>
+                    <img src="img/project4.jpg"/>
+                    <img src="img/project5.jpg"/>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts  -->
+    <section class="home-section">
+        <div class="container">
+            <header class="section-header text-center">
+                <h2>
+                    Contact Us
+                </h2>
+                <p>
+                    Start a new project? Let’s build something great together.
+                </p>
+            </header>
+
+            <figure class="map">
+
+                <img src="img/map.jpg" />
+
+                <div id="map-icon">
+                    <i class="fa fa-map-marker"></i>
+                </div>
+
+            </figure>
+
+            <div class="map-buttons clearfix">
+                <div class="map-button active-map" data-top="73" data-left="15">
+                    Sunset District
+                </div>
+                <div class="map-button" data-top="50" data-left="35">
+                    Forest Knolls
+                </div>
+                <div class="map-button" data-top="20" data-left="80">
+                    Mission Bay
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="main-footer">
+        Kaiser &copy; All rights reserved
+    </footer>
+
+    <!-- Include JS -->
+    <script src="js/jquery3.1.1.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

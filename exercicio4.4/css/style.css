@@ -1,0 +1,29 @@
+	*{
+		box-sizing:border-box;
+	}
+
+	body{
+		margin:0;
+		background:000;
+	}
+
+	#gallery{
+		position:relative;
+		width:100vw;
+		height:100vh;
+		overflow:hidden;
+	}
+
+	#gallery img{
+		position:absolute;
+		width: 100vw;
+		height: 100vh;
+		object-fit: cover;
+		object-position: center;
+		cursor:pointer;
+		display:none;
+	}
+
+	#gallery img:first-child{
+		display: block;
+	}
